@@ -25,4 +25,4 @@ pipeline:
       # - yarn install
       - echo $TEST
       - echo $TEST46你娘
-      - ls -al
+      - mkdir /e
