@@ -2,7 +2,7 @@ pipeline:
   test1:
     image: mhart/alpine-node:9.1.0
     group: testing
-    secrets: [ test, test46]
+    secrets: [ test, test46] 
     commands:
       - sleep 5
       # - yarn install
@@ -20,5 +20,5 @@ pipeline:
       # - yarn install
       - echo $TEST
       - echo $TEST46你娘
-    when:
+    when: #條件式
       status : [ failure ]
