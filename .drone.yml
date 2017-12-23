@@ -1,8 +1,3 @@
-clone:
-  git:
-    image: plugins/git
-    tags: true
-
 pipeline:
   test1:
     image: mhart/alpine-node:9.1.0
