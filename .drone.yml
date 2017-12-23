@@ -11,7 +11,7 @@ pipeline:
       # - node redis.js
   test2:
     image: mhart/alpine-node:9.1.0
-    group: testing2
+    group: testing
     secrets:
       - source: test
         target: test46
