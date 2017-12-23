@@ -9,3 +9,12 @@ pipeline:
       - echo $TEST
       - echo $TEST46
       # - node redis.js
+  test2:
+    image: mhart/alpine-node:9.1.0
+    group: testing
+    secrets: [ test, test46]
+    commands:
+      # - sleep 5
+      # - yarn install
+      - echo $TEST
+      - echo $TEST46.你娘
