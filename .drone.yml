@@ -21,4 +21,4 @@ pipeline:
       - echo $TEST
       - echo $TEST46你娘
     when:
-      status:[ failure ]
+      status : [ failure ]
