@@ -17,4 +17,4 @@ pipeline:
       # - sleep 5
       # - yarn install
       - echo $TEST
-      - echo $TEST46.你娘
+      - echo $TEST46你娘
