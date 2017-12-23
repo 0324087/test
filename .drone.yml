@@ -6,7 +6,7 @@ pipeline:
       - make test
       - make fmt-check
 
-  backend-1:
+  backend-12:
     image: golang
     group: build
     commands:
